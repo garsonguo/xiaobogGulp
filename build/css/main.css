@@ -1,0 +1,419 @@
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border: 0 solid;
+}
+
+header {
+    text-align: center;
+    height: 80px;
+    background: url("../img/title.png") no-repeat;
+    background-position: 2%;
+    background-color: #57A1E0;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 1366px) {
+    .header-nav>li {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header-nav>li {
+        margin-right: 30px;
+    }
+}
+
+.header-nav {
+    display: inline-block;
+}
+
+.header-nav>li {
+    float: left;
+    list-style: none;
+}
+
+.header-nav>li>ul {
+    display: none;
+}
+
+.header-nav>li:hover>a {
+    text-decoration: none;
+    background-color: #6AABE4;
+    border-radius: 5px;
+}
+
+.header-nav>li:hover>ul {
+    height: 60px;
+    line-height: 3.3;
+    display: block;
+    position: absolute;
+    z-index: 10;
+    background-color: #A3D0F7;
+    opacity: .9;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 5px 5px #74b8f3;
+}
+
+.header-nav>li:hover>ul>li {
+    float: left;
+    margin: 0 30px;
+    list-style: none;
+}
+
+.header-nav>li:hover>ul>li>a {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    color: #065c87;
+}
+
+.header-nav>li:hover>ul>li>a:hover {
+    background-color: #edffff;
+}
+
+.header-nav>li:hover>ul>li>ul {
+    display: none;
+}
+
+.header-nav>li:hover>ul>li:hover>a {
+    text-decoration: none;
+    background-color: #edffff;
+    border-radius: 5px;
+}
+
+.header-nav>li:hover>ul>li:hover>ul {
+    display: block;
+    position: absolute;
+    background-color: #A3D0F7;
+    opacity: .9;
+    padding: 0;
+    width: 135px;
+    margin-left: -29px;
+}
+
+.header-nav>li:hover>ul>li:hover>ul li {
+    list-style: none;
+}
+
+.header-nav>li:hover>ul>li:hover>ul li a {
+    width: 100%;
+    height: 44px;
+    padding: 0 12px;
+    color: #065c87;
+}
+
+.header-nav>li:hover>ul>li:hover>ul li a:hover {
+    background-color: #edffff;
+}
+
+.header-nav img {
+    display: block;
+    margin-top: 10px;
+    margin-left: 19.5px;
+}
+
+.header-nav a {
+    display: inline-block;
+    color: #ffffff;
+    width: 65px;
+    height: 65px;
+    margin: 7.5px auto;
+}
+
+.header-nav a:hover {
+    text-decoration: none;
+    background-color: #6AABE4;
+    border-radius: 5px;
+}
+
+.header-nav .active {
+    text-decoration: none;
+    background-color: #6AABE4;
+    border-radius: 5px;
+}
+
+.header-login {
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ADD1F1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 40px;
+}
+
+.header-login li {
+    float: right;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.header-login a {
+    font-size: 12px;
+    color: #333333;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.header-login a:hover {
+    background-color: transparent;
+}
+
+.header-login img {
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.container {
+    padding: 0;
+}
+
+.main .main-dt {
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 495px;
+}
+
+.main .col-lg-6 .main-item .main-item-title {
+    background-color: #C1EAFE;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 160px;
+    text-align: center;
+    color: #1680B5;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .main-item {
+    background-color: #f7f7f7;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.main .main-item .main-item-title {
+    background-color: #C1EAFE;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 40px;
+    text-align: center;
+    color: #1680B5;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main .main-item li {
+    line-height: 1.7;
+}
+
+.main .main-item a {
+    color: #999999;
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+.main .main-item a:hover {
+    color: #6AABE4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.main .crumbs {
+    height: 50px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.main .crumbs li {
+    list-style: none;
+    float: left;
+    margin: 15px;
+    margin-right: 40px;
+}
+
+.main .crumbs li a {
+    font-family: "宋体";
+    color: #A4A4A4;
+    display: inline-block;
+}
+
+.main .crumbs li a:hover {
+    text-decoration: none;
+}
+
+.main .crumbs li .active {
+    padding: 0 3px;
+    color: #ffffff;
+    background-color: #0576af;
+}
+
+.main .main-content {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+.main .main-content .btn {
+    background-color: #ffffff;
+    border: 1px solid #e7e7eb;
+}
+
+.main .main-content .btn:hover {
+    background-color: #e7e7eb;
+}
+
+.main .main-content .input-group-addon {
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+.main .main-content .main-search {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+.main .main-content .main-search a {
+    display: inline-block;
+    color: #333333;
+    border: 1px solid transparent;
+    padding: 2px 12px;
+}
+
+.main .main-content .main-search a:hover {
+    text-decoration: none;
+    background: url("../img/a-hover.png") no-repeat;
+}
+
+.main .main-content .main-search h5 {
+    height: 35px;
+    line-height: 1.7;
+    font-weight: bold;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 20px;
+}
+
+.main .main-content .main-search .form-control {
+    margin-right: 15px;
+    border-radius: 0;
+    height: 30px;
+    padding: 3px 12px;
+}
+
+.main .main-content .main-search .search-mian {
+    margin: 0 50px;
+}
+
+.main .main-content .main-search .search-mian .btn {
+    border: 0 solid #ffffff;
+    color: #449bea;
+}
+
+.main .main-content .main-search .search-mian .btn:hover {
+    color: #1982e2;
+}
+
+.main .main-content .main-search .search-mian .row {
+    height: 35px;
+}
+
+.main .main-content .main-search .search-mian .row:first-child a {
+    color: #449bea;
+}
+
+.main .main-content .main-search .search-mian .row:first-child a:hover {
+    background: transparent;
+    color: #72b4ef;
+}
+
+.main .main-content .main-search .search-mian .row:nth-child(2) {
+    margin-top: 10px;
+}
+
+.main .main-content .main-search .search-mian .row:nth-child(2) .form-inline {
+    border-bottom: 1px dotted #dddddd;
+    padding-bottom: 4px;
+}
+
+.main .main-content .main-search .search-mian .form-inline {
+    position: relative;
+}
+
+.main .main-content .main-search .search-mian .form-inline .col-lg-3 {
+    text-align: right;
+    padding: 0;
+}
+
+.main .main-content .main-search .search-mian .form-inline .btn {
+    margin-left: 15px;
+}
+
+.main .main-content .main-search .search-mian .form-inline a {
+    margin-right: 20px;
+}
+
+.main .main-content .main-search .search-mian .form-inline .active {
+    text-decoration: none;
+    background: url("../img/a-hover.png") no-repeat;
+}
+
+.main .main-content .main-search .search-mian .zt {
+    position: absolute;
+    top: 0;
+    left: 7px;
+}
+
+.main .main-content .main-search .search-mian .zt li {
+    list-style: none;
+    margin-right: 30px;
+    float: left;
+}
+
+.main .main-content .main-search .search-mian .zt .active {
+    text-decoration: none;
+    background: url("../img/a-hover.png") no-repeat;
+}
+
+.main .main-content .main-table {
+    margin: 0 30px;
+}
+
+.main .main-content .main-table table thead {
+    background-color: #f5f5f9;
+}
+
+.main .main-content .main-table table td,
+.main .main-content .main-table table th {
+    text-align: center;
+}
+
+.main .main-content .main-table table tbody tr:hover {
+    background-color: #f5f5f9;
+}
+
+.main .main-content .main-table .table-btn {
+    margin-bottom: 10px;
+}
+
+.main .main-content .main-table .table-btn .btn-info {
+    width: 100px;
+    background-color: #0576af;
+    border: 1px solid #0576af;
+}
+
+.main .main-content .main-table .table-btn .btn-info:hover {
+    background-color: #04557d;
+    border: 1px solid #04557d;
+}
+
+.main .main-content .main-table nav {
+    text-align: center;
+}

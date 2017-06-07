@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="build/common/css/bootstrap.css">
+    <link rel="stylesheet" href="build/css/main.css">
+    <title>业务查询</title>
+</head>
+
+<body>
+    <header>
+        <ul class="header-nav">
+            <li>
+                <a href="./index.html"><img src="build/img/firstPage.png">首页</a>
+            </li>
+            <li>
+                <a class="active" href="./search.html"><img src="build/img/search.png">XXX查询</a>
+            </li>
+            <li>
+                <a href="#"><img src="build/img/register.png">XXX查询</a>
+            </li>
+            <li>
+                <a href="#"><img src="build/img/daily.png">XXX统计</a>
+            </li>
+            <li>
+                <a href="#"><img src="build/img/eficiency.png">XXX统计</a>
+            </li>
+            <li>
+                <a href="#"><img src="build/img/manage.png">管理维护</a>
+            </li>
+        </ul>
+        <ul class="header-login">
+            <li><a href="#"><span class="glyphicon glyphicon-arrow-right" aria-hidden="true">&nbsp;</span>退出</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon glyphicon-user" aria-hidden="true">&nbsp;</span>管理员</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true">&nbsp;</span>XXX部门</a></li>
+        </ul>
+    </header>
+    <div class="main">
+        <div class="container">
+            <ul class="crumbs">
+                <li><a class="active" href="#">XXXX查询</a></li>
+                <li><a href="#">XXX查询</a></li>
+                <li><a href="#">XXX查询</a></li>
+                <li><a href="#">XXX查询</a></li>
+                <li><a href="#">XXX查询</a></li>
+            </ul>
+            <div class="main-content">
+                <div class="main-search">
+                    <h5>XXXX查询</h5>
+                    <form class="search-mian">
+                        <div class="row">
+                            <div class="form-inline">
+                                <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                                    <label>项目名称：</label>
+                                    <select class="form-control">
+                                    <option>项目new-分期new</option>
+                                </select>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                                    <label>电话号码：</label>
+                                    <input class="form-control" placeholder="请输入电话号码...">
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-xs-3 col-sm-3">
+                                    <label>电话号码：</label>
+                                    <input class="form-control" placeholder="请输入电话号码...">
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-3 col-sm-3">
+                                    <a href="#">高级搜索：</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-inline">
+                                <label>状态：</label>
+                                <ul class="zt">
+                                    <li><a class="active" href="">全部</a></li>
+                                    <li><a href="">警告</a></li>
+                                    <li><a href="">紧急</a></li>
+                                    <li><a href="">终止</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-inline">
+                                <label>登记日期：</label>
+                                <a class="active" href="#">全部</a>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input class="form-control" type="date" placeholder="开始时间">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                    </div> -
+                                    <div class="input-group">
+                                        <input class="form-control" type="date" placeholder="开始时间">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="main-table">
+                    <div class="table-btn">
+                        <button class="btn btn-info">搜索</button>
+                        <button class="btn">清空搜索条件</button>
+                    </div>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th style="width:10%">
+                                    <div>XXX代码</div>
+                                </th>
+                                <th style="width:10%">
+                                    <div>XXX用途</div>
+                                </th>
+                                <th style="width:10%">
+                                    <div>XXX类型</div>
+                                </th>
+                                <th style="width:10%">
+                                    <div>XXX性质</div>
+                                </th>
+                                <th style="width:10%">
+                                    <div>XXX面积</div>
+                                </th>
+                                <th style="width:10%">
+                                    <div>XXXXXX</div>
+                                </th>
+                                <th style="width:30%">
+                                    <div>查看</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div>4303210030176GB00051</div>
+                                </td>
+                                <td>
+                                    <div>XXXXXXXXXXX</div>
+                                </td>
+                                <td>XXXXXXXXXXX</td>
+                                <td>
+                                    <div>XXXXXXXXXXX</div>
+                                </td>
+                                <td>
+                                    <div>524.0200</div>
+                                </td>
+                                <td>
+                                    <div>XXXXXXXXXXX</div>
+                                </td>
+                                <td>
+                                    <div>查看</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li><a href="#">首页</a></li>
+                            <li><a href="#">上一页</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li><a href="#">7</a></li>
+                            <li><a href="#">下一页</a></li>
+                            <li><a href="#">末页</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="build/common/js/jquery-2.0.3.js"></script>
+    <script src="build/common/js/bootstrap.js"></script>
+</body>
+
+</html>
